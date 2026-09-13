@@ -1,0 +1,24 @@
+# ============================================================
+# Line endings
+# ============================================================
+
+# Normalize text files and store them as LF in Git
+* text=auto eol=lf
+
+# Windows-specific scripts must remain CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.pt binary
+*.pth binary
+*.onnx binary
