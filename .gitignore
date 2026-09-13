@@ -18,7 +18,7 @@ __pycache__/
 htmlcov/
 
 # Generated outputs
-outputs/
+#outputs/
 
 # Large/raw external datasets
 data/raw/
